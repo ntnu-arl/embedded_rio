@@ -1,3 +1,6 @@
 [submodule "lib/rio-lib"]
 	path = lib/rio-lib
 	url = git@github.com:NicolaiAdil/rio-lib.git
+[submodule "lib/mavlink"]
+	path = lib/mavlink
+	url = https://github.com/mavlink/c_library_v2.git

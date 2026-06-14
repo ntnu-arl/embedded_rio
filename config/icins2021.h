@@ -13,6 +13,8 @@
 
 static const char* const RADAR_CFG_ICINS2021[] = {
   "sensorStop",
+  "configDataPort 921600 1",  // keep: sets DATA UART to 921600 baud
+  "sensorStop",
   "flushCfg",
   "dfeDataOutputMode 1",
   "channelCfg 15 7 0",
